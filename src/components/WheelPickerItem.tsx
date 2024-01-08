@@ -109,7 +109,6 @@ const WheelPickerItem: React.FC<WheelPickerItemProps> = (
       onFocus={onFocus}
       tabIndex={0}
     >
-      {selected && <Icon fontSize={fontSize}>&#10003;</Icon>}
       <span style={{ width: ICON_WIDTH }}></span>
       <Text style={textStyle}>{value}</Text>
     </Item>
